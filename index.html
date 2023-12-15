@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBH</title>
+    <!--======Bootstrap CDN=========-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!--======Custom CSS =========-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--======jQuery CDN=========-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    
+    <!--======Google Fonts CDN=========-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!--======Font Awsome CDN=========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--======AOS LIBRARY CDN=========-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+  input:focus{
+    outline: none !important;
+    color: aliceblue;
+  }
+  input{
+    color: aliceblue;
+
+  }
+</style>
+</head>
+<body>
+    <!--======Header Section=========-->
+    <section class="header">
+
+    <!--======Navbar=========-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" class="img-fluid" width="200px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light" style="color:var(--text-color) !important;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active"  href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu" href="about.html">ABOUT</a>
+              </li>
+           
+              <li class="nav-item">
+                <a class="nav-link menu" href="services.html">SERVICE</a>
+              </li>
+           
+              <li class="nav-item">
+                <a class="nav-link menu" href="contact.html">CONTACT</a>
+              </li>
+           
+            
+            </ul>
+            <div class="me-3">
+                <i class="fa-regular fa-envelope" style="color: var(--text-color);"></i> <span style="color:var(--text-color)">info@hananbinhammooda.com</span>
+                <br>
+                <div class="float-md-end">
+
+                    <i class="fa-solid fa-phone-volume" style="color: var(--text-color);"></i> <span style="color:var(--text-color)">+973 3999 9500</span>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--======HERO SECTION=========-->
+
+      <div class="container-fluid ">
+        <div class="row pt-5">
+            <div class="col-md-6 d-flex justify-content-center"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <div class="hero-container">
+
+                <img src="images/hero-section.png" class="hero-img" alt="">
+
+                </div>
+            </div>
+            <div class="col-md-6 pt-lg-5 pt-md-3"  data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+                <div class="pt-lg-5 pt-md-4 pt-3">
+                    <h3 class="hero-heading pt-lg-5 pt-md-4">We Solve Your Legal Problems.</h3>
+                </div>
+                
+                <div class="pt-lg-3 pt-md-2 pt-0 pb-md-0 pb-3">
+                  <a href="#"> <p class="hero-paragraph">  Receive consultation </p> </a>
+                </div>
+
+                <div class=" socials-icons d-flex flex-column justify-content-end align-items-end pe-3 pt-5">
+                  <span class="d-md-block d-none"> <a href="#" > <i class="fa-brands fa-linkedin socials"></i></a> </span>
+                  <span class="pt-2 d-md-block d-none"> <a href="#" > <i class="fa-brands fa-instagram socials" ></i></a> </span>
+                  <span class="pt-2 d-md-block d-none"> <a href="#"> <i class="fa-brands fa-facebook socials"></i></a> </span>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--=======LEGAL EXPERTIES SECTION  ========= -->
+
+    <section class="legal-expertiese">
+      <div class="container-fluid ps-0">
+        <div class="row">
+          <div class="col-lg-5 col-md-4 mx-auto" >
+         
+            <div class="legal-container">
+
+              <img src="images/Rectangle 6.png" class="legal-img" alt="">
+            </div>
+            
+            
+          </div>
+
+          <div class="col-lg-7 col-md-8 d-flex justify-content-center align-items-left flex-column pe-md-5 ps-lg-0 ps-md-5 pt-md-0 pt-4 " data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+              
+
+              <p class="legal-headings m-0">
+                Hanan Bin Hammooda
+              </p>
+              <p class="legal-para m-0">Legal Expertise</p>
+             
+              <div class="legal-mainpara p-xl-4 py-2 px-sm-3 px-2  mb-5 mt-2">
+              <p class="m-0">Hanan Hamouda Law Firm is prominent legal <br>
+              esetablishment headquartered in the Kingdom of Bahrain. Hanan Hamouda Law Firm <br>
+              is a prominent legal esetablishment headquartered in the Kingdom of Bahrain. Hanan <br>
+              Hamouda Law Firm is a prominent legal esetablishment headquartered in the <br>
+              Kingdom of Bahrain.</p>
+            </div>
+            <div class="legal-btn-container">
+
+              <a href="#" class="legal-btn px-sm-4 px-3 py-sm-2 py-2">Read More</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--======= SECTION 3 ========= -->
+    
+    <section class="section-3 p-md-5 pt-3 px-2" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <div class="container-fluid law-container ">
+        
+        
+        <div class="row bottom">
+          <div class="col-md-5 ">
+            <h3 class="section3-heading ps-xl-5 ps-sm-2 ps-1">We are the ones you need.</h3>
+          </div>
+          <div class="col-md-7">
+            <p class="section3-para pt-2">
+              Hanan Hamouda Law Firm is prominent legal 
+              esetablishment headquartered in the Kingdom of Bahrain. Hanan Hamouda Law Firm 
+              is a prominent legal esetablishment headquartered in the Kingdom of Bahrain. Hanan 
+              Hamouda Law Firm is a prominent legal esetablishment headquartered in the 
+              Kingdom of Bahrain.
+                        </p>
+          </div>
+        </div>
+        <div class="row px-md-5 px-0">
+          <div class="col-lg-4 col-sm-6"> 
+            <div class="one d-flex justify-content-sm-center justify-content-left">
+              <p class="section3-1"> 1</p>
+              <h5 class="section3-f">Confidential work</h5>
+            
+            </div>  
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="two d-flex justify-content-sm-center justify-content-left">
+              <p class="section3-2"> 2</p>
+              <h5 class="section3-s">Individual approach</h5>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section3-3"> 3</p>
+              <h5 class="section3-t">Go through</h5>
+            
+            </div> 
+          </div>
+
+          <div class="col-lg-4 col-sm-6"> 
+            <div class="one d-flex justify-content-sm-center justify-content-left">
+              <p class="section3-4"> 4</p>
+              <h5 class="section3-four">Confidential work</h5>
+            
+            </div>  
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="two d-flex justify-content-sm-center justify-content-left">
+              <p class="section3-5"> 5</p>
+              <h5 class="section3-five">Individual approach</h5>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section3-3"> 6</p>
+              <h5 class="section3-t">Go through</h5>
+            
+            </div> 
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--======= SECTION 4 ========= -->
+
+    <section class="section-4" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center justify-content-center section4-col"  >
+            <div class="">
+
+              <p class="section4-heading">Companies today need lawyers who act first and foremost as businesspeople</p>
+            </div>
+            <div>
+
+              <p class="sign d-lg-block d-none">"</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--======= SECTION 5 ========= -->
+    <section class="section-5 " data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <div class="container-md">
+        <div class="row pt-3">
+          <div class="col-12" style="line-height: 5px;">
+           <p class="section5-first pt-5">
+
+             What we can help you with
+           </p> 
+           <h5 class="section5-second">Areas of Expertise</h5>
+          </div>
+         
+        </div>
+        <div class="row pt-sm-5 pt-2">
+          <div class="col-lg-4 col-md-6 pb-5 pt-5 pe-lg-0 pe-sm-5 ps-3">
+            <div class="one d-flex justify-content-lg-center justify-content-md-left justify-content-sm-center justify-content-left">
+              <p class="section5-1"> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-f"> Family Law</p>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5 pb-md-0 pb-5 ps-sm-0 ps-3">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section5-2"> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-s">Banking & Finance</p>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5 pb-5 ps-lg-0 ps-md-5 ps-sm-5 ps-3">
+            <div class="one d-flex justify-content-lg-center justify-content-md-left justify-content-sm-center justify-content-left">
+              <p class="section5-3"> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-t">Corporate & Commercial </p>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5 pe-lg-0 pe-sm-5 ps-sm-0 ps-3 pb-5 pb-md-0">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section5-4 "> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-four"> Theft Laws</p>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5 pe-lg-0 pe-md-5 pe-sm-5 ps-sm-0 ps-3 pb-md-0 pb-5">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section5-5"> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-five">Criminal Defense</p>
+            
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-6 pt-5 ps-lg-0 ps-md-5 ps-sm-5 ps-3">
+            <div class="one d-flex justify-content-lg-center justify-content-sm-center justify-content-left">
+              <p class="section5-6"> <i class="fa-solid fa-scale-balanced"></i></p>
+              <p class="section5-six"> Real Estate & Property Law</p>
+            
+            </div> 
+          </div>
+        <div class="col-12 d-flex justify-content-center pt-5">
+       <button href="" class="section5-btn px-3 py-2" >Find out more</button>
+
+        </div>
+        </div>
+      </div>
+
+    </section>
+
+
+      <!--======= SECTION 6 ========= -->
+    
+      <section class="section-6 " data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <div class="section6-hero p-md-4 pt-3 px-md-3 px-0">
+
+        <div class="container-fluid law-containerss ">
+          
+          
+          <div class="row bottomss">
+            <div class="col-md-6 pt-5">
+              <h3 class="section5-heading ps-xl-5 ps-sm-2 ps-1 ">Contact us now</h3>
+              <p class="ps-xl-5 ps-sm-2 ps-1 section5-para pt-4">Please share your information to schedule a consultation</p>
+              <div class="contact-main ps-xl-5 ps-sm-2 ps-1  ">
+                <form action="" class="d-flex flex-sm-row flex-column">
+                  <div>
+
+                    <input placeholder="Your name" type="text" />
+                  </div>
+                  <div class="ps-sm-5 pt-sm-0 pt-4">  
+                   
+                    <input placeholder="Phone" type="text" />
+                  </div>
+                  <div class="pt-sm-1 pt-3">
+
+                    <a href="" class="ps-sm-4 contact-btn">Send</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+              
+          
+  
+        </div>
+        <div class="d-flex justify-content-xl-end justify-content-sm-left justify-content-center">
+
+          <img src="images/hanannnnn.png" class="img-fluid contact-img " alt="">
+        </div>
+
+      </div>
+
+      </section>
+
+    <!--======Testimonials Section=========-->
+      <section class="testimonianl pb-md-5 pb-sm-3 pb-2" style="z-index: 999999999;" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 ps-xl-5">
+              <h6 class="testimonianl-heading ps-xl-5 pt-5">Our Clients</h6>
+              <p class="testimonianl-para ps-xl-5"> We've worked with some of the most renowned names in the Kingdom </p>
+            </div>
+
+          </div>
+          <div class="row pt-md-5 pt-sm-3 pt-2">
+          <div class="col-md-3 ps-5 d-xl-block d-none"> 
+          <p class="test-comas ps-5 d-flex justify-content-end">"</p>  
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+            <div class="t-profile">
+            
+              <h5 class="t-name">John Doe</h5>
+                <p class="t-title">
+                  Manager
+                </p>
+            <p class="t-para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus iusto repellendus quo accusamus velit nulla natus molestiae nobis itaque.  
+          </p>
+            <p class="t-date">
+              30 October 2023
+            </p>
+
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-sm-0 pt-3">
+            <div class="t-profile">
+            
+              <h5 class="t-name">John Doe</h5>
+                <p class="t-title">
+                  Manager
+                </p>
+            <p class="t-para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus iusto repellendus quo accusamus velit nulla natus molestiae nobis itaque.            </p>
+            <p class="t-date">
+              30 October 2023
+            </p>
+
+
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4 col-sm-6 col-12 pt-md-0 pt-3">
+            <div class="t-profile">
+            
+              <h5 class="t-name">John Doe</h5>
+                <p class="t-title">
+                  Manager
+                </p>
+            <p class="t-para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt necessitatibus iusto repellendus quo accusamus velit nulla natus molestiae nobis itaque.            </p>
+            <p class="t-date">
+              30 October 2023
+            </p>
+
+
+            </div>
+          </div>
+
+          <div class="col-12 d-flex justify-content-end pb-sm-5 pb-3">
+            <a href="#" class="test-link">More Testimonials Here</a>
+          </div>
+
+          </div>
+      
+        </div>
+      </section>
+
+      
+    <!--======= SECTION 7 ========= -->
+
+    <section class="section-4" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 d-flex align-items-center justify-content-center section4-col"  >
+            <div class="">
+
+              <p class="section4-heading">Indeed God enjoins Justice & Kindness.</p>
+              <p class="section4-heading text-center" style="color:var(--heading-color)">إن الله يأمر بالعدل والإحسان.</p>
+
+            </div>
+           
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--======= FOOTER SECTION  ========= -->
+<section class="footer" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="1500">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8  col-md-6">
+        <div class=" pt-5 ps-md-5 ps-sm-3 ps-2 pb-5">
+
+          <img src="images/logo.png" alt="" class="img-fluid" width="200px">
+          <p class="footer-para ">office 34 Aalia Building 580, Road 1706 Block 317 Diplomatic Area PO.Box 51222, Manama Kingdom of Bahrain</p>
+        <p class="f-time pt-5 ">Sun - Thu:09:00am-07:00am</p>
+        <p class="f-phone">+973 3999 9500</p>
+        <p class="f-mail">hananbinhammooda@outlook.com</p>
+      </div>
+
+      </div>
+      <div class="col-lg-2 col-md-3 pt-md-5 pt-3">
+        <h5 class="f-social ">SOCIAL MEDIA</h5>
+        <ul>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Twitter</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Linkdein</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Instagram</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Facebook</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Telegram</a></li>
+         
+      
+        </ul>
+        <li class="nav-item f-nav d-flex justify-content-md-end justify-content-left"><a href="#" class="nav-link" style="color:var(--text-color)">Privacy Policy</a></li>
+      </div>
+      <div class="col-lg-2 col-md-3 pt-md-5 pt-2 pb-3">
+        <h5 class="f-social ">COMPANY</h5>
+        <ul>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">About Us</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Our Team</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Prices</a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">Contact </a></li>
+          <li class="nav-item f-nav"><a href="#" class="nav-link f-link" style="color:var(--text-color)">News</a></li>
+         
+      
+        </ul>
+        <li class="nav-item f-nav d-flex justify-content-md-end justify-content-left" ><a href="#" class="nav-link" style="color:var(--text-color)">Terms and Conditions</a></li>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--======AOS LIBRARY CDN=========-->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--======Bootstrap Javascript CDN=========-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!--======Custom Javascript=========-->
+    <script src="js/script.js"></script>
+      <script>
+  AOS.init();
+</script>
+    
+</body>
+</html>
